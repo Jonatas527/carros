@@ -9,7 +9,7 @@ export default function app(){
       <section>
         <div>
           <img src={iconSedans} alt="icone dos carros sedans" />
-          <h2>Sedans</h2>
+          <h2 className="text-3xl">Sedans</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatem expedita, recusandae quo doloribus facilis atque exercitationem et. Voluptatum ipsam sequi dolorum quibusdam, iure vel laboriosam provident voluptatibus explicabo sapiente?</p>
           <a href="https://www.webmotors.com.br/sedans" target="_blank">Ver mais</a>
         </div>
