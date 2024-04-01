@@ -7,23 +7,23 @@ export default function app(){
   return(
     <main className="min-h-svh bg-offwhitebdg py-20 px-6">
       <section>
-        <div className="bg-orange">
-          <img src={iconSedans} alt="icone dos carros sedans" />
-          <h2 className="font-shouders">Sedans</h2>
-          <p className="font-lexend">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatem expedita, recusandae quo doloribus facilis atque exercitationem et. Voluptatum ipsam sequi dolorum quibusdam, iure vel laboriosam provident voluptatibus explicabo sapiente?</p>
-          <a className="font-lexend" href="https://www.webmotors.com.br/sedans" target="_blank">Ver mais</a>
+        <div className="bg-orange p-12 rounded-t-lg ">
+          <img src={iconSedans} alt="icone dos carros sedans"  className="mb-7"/>
+          <h2 className="font-shouders mb-7 uppercase text-4xl font-bold text-white">Sedans</h2>
+          <p className="font-lexend mb-7 text-offwhite ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatem expedita, recusandae quo doloribus facilis atque exercitationem et. Voluptatum ipsam sequi dolorum quibusdam, iure vel laboriosam provident voluptatibus explicabo sapiente?</p>
+          <a className="font-lexend font-lexend bg-offwhitebg  block w-fit rounded-3xl text-orange px-10 py-3" href="https://www.webmotors.com.br/sedans" target="_blank">Ver mais</a>
         </div>
-        <div className="bg-green">
-          <img src={iconSuvs} alt="icone dos carros suvs" />
-          <h2 className="font-shouders">Suvs</h2>
-          <p className="font-lexend">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, numquam blanditiis? Numquam amet, illo, minus at, quaerat natus ex magni nesciunt aperiam debitis accusamus sapiente omnis provident? Corrupti, a fugiat.</p>
-          <a className="font-lexend" href="https://www.webmotors.com.br/suvs" target="_blank">Ver mais </a>
+        <div className="bg-green p-12 ">
+          <img src={iconSuvs} alt="icone dos carros suvs" className="mb-7" />
+          <h2 className="font-shouders mb-7 uppercase text-4xl font-bold text-offwhitebg">Suvs</h2>
+          <p className="font-lexend mb-7 text-offwhite">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, numquam blanditiis? Numquam amet, illo, minus at, quaerat natus ex magni nesciunt aperiam debitis accusamus sapiente omnis provident? Corrupti, a fugiat.</p>
+          <a className="font-lexend bg-offwhitebg  block w-fit rounded-3xl text-green px-10 py-3" href="https://www.webmotors.com.br/suvs" target="_blank">Ver mais </a>
         </div>
-        <div className="bg-dark-green">
-          <img src={iconLuxury} alt="icone dos carros luxury" />
-          <h2 className="font-shouders" >Luxury</h2>
-          <p className="font-lexend">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam fugit commodi, deleniti ducimus reprehenderit odit nulla modi temporibus a architecto exercitationem at. Saepe voluptatum eum eaque numquam molestias illo ipsum?</p>
-          <a className="font-lexend" href="https://www.webmotors.com.br/carros-de-luxo" target="_blank">Ver mais</a>
+        <div className="bg-dark-green p-12 rounded-b-lg">
+          <img src={iconLuxury} alt="icone dos carros luxury" className="mb-7"/>
+          <h2 className="font-shouders mb-7 uppercase text-4xl font-bold text-offwhitebg">Luxury</h2>
+          <p className="font-lexend mb-7 text-offwhite">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam fugit commodi, deleniti ducimus reprehenderit odit nulla modi temporibus a architecto exercitationem at. Saepe voluptatum eum eaque numquam molestias illo ipsum?</p>
+          <a className="font-lexend font-lexend bg-offwhitebg  block w-fit rounded-3xl text-dark-green px-10 py-3" href="https://www.webmotors.com.br/carros-de-luxo" target="_blank">Ver mais</a>
 
         </div>
       </section>
