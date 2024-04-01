@@ -15,7 +15,13 @@ export default {
 
 
 
+    },
+    fontFamily:{
+      'shoulders':'"big shoulders display',
+      'lexend':'"lenxend deca'
+
     }
+
   },
   plugins: [],
 }
